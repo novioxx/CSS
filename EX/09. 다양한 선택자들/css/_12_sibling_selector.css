@@ -1,0 +1,14 @@
+div {
+    margin-top: 20px;
+}
+/*.nsibling 태그 뒤에 생성된 p 태그 선택하여 스타일 적용*(인정 형제 선택자)/
+.nsibling + p {
+    background-color: aqua;
+    color: red;
+}
+
+/*.sibling 태그 뒤에 생성된 모든 p 태그 선택하여 스타일 적용*/
+.sibling ~ p {
+    background-color: yellow;
+    color: green;
+}

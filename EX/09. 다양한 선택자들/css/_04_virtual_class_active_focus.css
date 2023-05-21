@@ -1,0 +1,9 @@
+/*focus는 포커싱이 계속되는 동아 적용되는 스타일*/
+
+input[name="userId"]:focus {
+    background-color: aqua;
+}
+/*active는 포커싱이 활성화되는 순간에 적용되는 스타일*/
+input[name="userPw"]:active {
+    background-color: yellow;
+}

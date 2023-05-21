@@ -1,0 +1,21 @@
+div {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.box1 {
+    background-color: orange;
+}
+
+.box2 {
+    background-color: aqua;
+    visibility: visible;
+    /*visibility: hidden은 공간은 차지하지만 화면에 안보임*/
+    display: none; /*공간까지 삭제*/
+}
+
+.box3 {
+    background-color: blue;
+}

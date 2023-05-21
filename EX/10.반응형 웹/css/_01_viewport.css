@@ -1,0 +1,5 @@
+.box {
+    width: 10vw;
+    height: 100vh; /*모니터 사이즈의 100% 라는 의미, 10%로 주고 싶으면 10vh*/
+    background-color: aqua;
+}
